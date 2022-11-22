@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <img id="inicio" src="../fotos/fotoportada.jpg" alt="fotoportada" class="portada" width="100%">
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./Products.html">PRODUCTS</a></li>
+                <li><a href="./about us.html">ABOUT US</a></li>
+                <li><a href="./contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="orden">
+            <h1>CONTACT US</h1>
+            <article class="contacto">
+                
+                <form action="" class="border">
+                    <div>
+                        <legend><H2>CONTACT FORM</H2></legend>
+                    </div>
+                    <div>
+                        <label for="name">Escribe tu nombre</label>
+                        <input type="text" name="name" placeholder="Santiago">
+                    </div>
+                    <div>
+                        <label for="surname">Escribe tu apellido</label>
+                        <input type="text" name="surname"placeholder="Sivak">
+                    </div>
+                    <div>
+                        <label for="email">E-mail*</label>
+                        <input type="email" name="email"placeholder="sivak@hotmail.com" required>
+                    </div>
+                    <div>
+                        <label for="pass">Password</label>
+                        <input type="password" name="pass">
+                    </div>
+                    <div>
+                        <label for="nacionalidad">Elige tu país</label>
+                        <select name="nacionalidad">
+                            <option value="arg">Argentina</option>
+                            <option value="br">Brasil</option>
+                            <option value="uru">Uruguay</option>
+                            <option value="peru">Perú</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sexo">Elige tu género</label>
+                        <input type="radio" name="sexo" value="muj">Mujer
+                        <input type="radio" name="sexo" value="hom">Hombre
+                        <input type="radio" name="sexo" value="otro">Otro
+                    </div>
+                    <div>
+                        <div>
+                            <label for="comentarios">Escribe tu comentario</label>
+                        </div>
+                        <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="terminos">Acepto términos y condiciones</label>
+                        <input type="checkbox" name="terminos">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar Datos">
+                        <input type="reset" value="Borrar Datos">
+                    </div>   
+                </form>
+            </article>
+            <article class="map">
+                <img src="../fotos/mapa.jpeg" alt="mapa">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h2><a href="#inicio">Volver</a></h2>
+        <img src="#" alt="logo">
+        <h1>REDES</h1>
+    </footer>
+</body>
+</html>

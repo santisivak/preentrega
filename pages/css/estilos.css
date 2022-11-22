@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+header{
+    width: 100%;
+    background-color: #8ec4b2;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.menu{
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-type: none;
+    padding: 5px 5px;
+    text-align: left;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 55px;
+    color: black;
+    font-weight: bold;
+}
+.menu li a:hover{
+    background-color: #f3f37d;
+    border-radius: 5px;
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.carrusel{
+    width: 100%;
+}
+article{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.news{
+    width: 60%;
+    margin-top: 2rem;
+    text-align: left;
+    display: inline-block;
+}
+.noticia{
+    border-style: solid 2px;
+    border-color: #a8a8a8;
+}
+
+.comments{
+    width: 40%;
+    margin-top: 2rem;
+    text-align: right;
+}
+.border{
+    border: solid #9b9b9bad 2px;
+}
+footer{
+    text-align: center;
+}
+.productos{
+    text-align: center;
+    margin:30px 10px;
+}
+.producto1{
+    width: 450px;
+    height: 550px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    overflow: hidden;
+}
+.us{
+    margin:30px 15px;
+    text-align: center;
+}
+.us img{
+    margin: 15px;
+}
+.personal{
+    text-align: center;
+}
+.persona{
+    width: 450px;
+    height: 550px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    overflow: hidden;
+}
+.persona img{
+    margin: 10px;
+}
+.contacto{
+    margin:30px 15px;
+    text-align: left;
+}
+form{
+    margin: 30px 30px;
+    width: 30%;
+}
+.orden h1{
+    text-align: center;
+}
+form div{
+    margin: 10px 20px 15px 20px;
+}
+form legend{
+    text-align: center;
+}
+.map{
+    margin: 30px 30px;
+    width: 50%;
+}
+.orden{
+    display: inline-block;
+}
